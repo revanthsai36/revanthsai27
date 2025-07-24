@@ -8,59 +8,60 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">Revanth Sai</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="experience.html" class="active">Experience</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html" class="active">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-    <section id="experience" style="padding: 40px;">
+    <section id="experience">
       <h1>Professional Experience</h1>
 
-      <h2>Data Engineer – Verizon (Feb 2023 – Present)</h2>
-      <p><strong>Project Summary:</strong> Migrated 12+ legacy Teradata ETL workflows to GCP BigQuery, improving query speed by 50% and cutting costs by 30%. Built real-time ETL pipelines using GCP Dataflow, handling 2M+ daily events across billing, device logs, and support data. Orchestrated pipelines with Airflow (Cloud Composer) and enabled CI/CD via Docker and GitHub Actions. Supported ML pipelines and Power BI dashboards for churn, network health, and support analytics.</p>
+      <!-- Verizon -->
+      <h2>Data Engineer – Verizon</h2>
+      <p><strong>Feb 2023 – Present</strong></p>
+      <h3>Project: GCP-Based Customer & Operations Analytics Platform</h3>
       <ul>
-        <li>Built scalable ETL using GCP Dataflow and BigQuery.</li>
-        <li>Rewrote Teradata workflows, improving SQL efficiency by 30%.</li>
-        <li>Used Airflow (Cloud Composer) for orchestration with error handling.</li>
-        <li>Developed Python modules for schema validation and logging.</li>
-        <li>Designed clustered/partitioned BigQuery tables for fast querying.</li>
-        <li>Collaborated on Power BI dashboards and ML-ready datasets.</li>
+        <li>Led migration of 12+ legacy Teradata ETL workflows to BigQuery, boosting speed by 50% and cutting costs by 30%.</li>
+        <li>Built real-time ETL pipelines with GCP Dataflow processing 2M+ daily events from customer and support systems.</li>
+        <li>Orchestrated workflows using Airflow (Cloud Composer), reducing failure rate by 40%.</li>
+        <li>Implemented Python-based data validation, cutting QA time by 60%.</li>
+        <li>Designed partitioned BigQuery tables with sub-second query capability.</li>
+        <li>Enabled model-ready datasets and deployed CI/CD pipelines using Docker and GitHub Actions.</li>
+        <li><strong>Power BI Dashboards:</strong> Churn Prediction, Network Health, Support Insights.</li>
       </ul>
-      <p><strong>Environment:</strong> Python, Airflow, BigQuery, Dataflow, SSIS, SQL, Docker, Git, Power BI, MongoDB</p>
 
-      <h2>Data Engineer – Humana (Aug 2021 – Sep 2022)</h2>
-      <p><strong>Project Summary:</strong> Designed Azure-based ETL pipelines for claims, eligibility, and clinical data for 10M+ members. Used Azure Data Factory and Databricks (PySpark) for transformation and schema validation. Built Power BI dashboards for utilization, cost insights, and chronic risk scoring. Supported HIPAA compliance and CI/CD via Azure DevOps.</p>
+      <!-- Humana -->
+      <h2>Data Engineer – Humana</h2>
+      <p><strong>Aug 2021 – Sep 2022</strong></p>
+      <h3>Project: Azure-Based Healthcare Data Modernization</h3>
       <ul>
-        <li>Created scalable pipelines in Azure Data Factory and PySpark.</li>
-        <li>Used Azure Synapse and T-SQL for modeling and querying.</li>
-        <li>Built reusable Python modules for validation and testing.</li>
-        <li>Enabled AI/ML pipelines with reliable feature sets.</li>
-        <li>Maintained secure access and HIPAA compliance.</li>
+        <li>Designed scalable ETL pipelines in Azure Data Factory and Databricks for 10M+ member healthcare records.</li>
+        <li>Built PySpark transformations and Python scripts for anomaly detection and schema validation.</li>
+        <li>Created star-schema models in Synapse for performant dashboards and reporting.</li>
+        <li>Ensured HIPAA compliance and implemented CI/CD via Azure DevOps.</li>
+        <li><strong>Power BI Dashboards:</strong> Care Utilization Tracker, Cost & Claims Insights, Chronic Risk Scoring.</li>
       </ul>
-      <p><strong>Environment:</strong> Azure Data Factory, Synapse, PySpark, SQL, Python, Azure DevOps, Cosmos DB, Power BI</p>
 
-      <h2>Data Engineer – Warner Music Group (Jun 2019 – Aug 2021)</h2>
-      <p><strong>Project Summary:</strong> Built real-time and batch pipelines for processing 500M+ monthly streaming events from Spotify, YouTube, and others. Migrated Oracle ETL jobs to GCP stack using DataProc, Pub/Sub, and BigQuery. Supported dashboards for fan engagement, revenue, and campaign tracking. Delivered ML-ready datasets for forecasting and retention models.</p>
+      <!-- Warner Music Group -->
+      <h2>Data Engineer – Warner Music Group</h2>
+      <p><strong>Jun 2019 – Aug 2021</strong></p>
+      <h3>Project: GCP-Based Streaming Analytics Platform</h3>
       <ul>
-        <li>Developed streaming pipelines with GCP DataProc and Composer.</li>
-        <li>Migrated Oracle workloads to BigQuery and Snowflake.</li>
-        <li>Built Airflow DAGs and automated ingestion with Python scripts.</li>
-        <li>Worked with Tableau and Power BI for analytics dashboards.</li>
-        <li>Collaborated with ML teams and migrated log pipelines.</li>
+        <li>Engineered data pipelines using Databricks, Airflow, and BigQuery for 500M+ monthly streaming events.</li>
+        <li>Migrated ETL jobs from Oracle to GCP, improving job latency by 40%.</li>
+        <li>Developed Python scripts for ingesting partner metadata and transforming unstructured logs.</li>
+        <li><strong>Dashboards:</strong> Fan Engagement Trends, Global Revenue Insights, Campaign Performance Monitor.</li>
       </ul>
-      <p><strong>Environment:</strong> DataProc, Composer, BigQuery, Snowflake, Spark, Docker, Python, Tableau, Power BI</p>
+
     </section>
   </main>
-
-  <footer>
-    <p>Revanth Sai</p>
-  </footer>
 
 </body>
 </html>
