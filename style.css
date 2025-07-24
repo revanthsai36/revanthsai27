@@ -53,7 +53,7 @@ body {
   color: #000;
 }
 
-/* Main Sections Shared by About and Experience */
+/* Main Sections (About, Experience, Education, Contact) */
 main {
   padding: 60px 10%;
   background-color: #fff;
@@ -63,6 +63,8 @@ main h1 {
   font-size: 32px;
   color: #f97316;
   margin-bottom: 25px;
+  border-bottom: 2px solid #f97316;
+  padding-bottom: 8px;
 }
 
 main p {
@@ -96,7 +98,7 @@ main ul li {
   font-size: 15px;
 }
 
-/* Hero (if used on index.html) */
+/* Hero Section (Homepage) */
 .hero {
   text-align: center;
   margin-top: 120px;
@@ -141,6 +143,16 @@ main ul li {
   color: #fff;
 }
 
+/* Footer (if used) */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .navbar {
@@ -159,7 +171,7 @@ main ul li {
   }
 
   main {
-    padding: 20px 5%;
+    padding: 30px 5%;
   }
 
   .hero h1 {
@@ -175,4 +187,3 @@ main ul li {
     margin: 10px auto;
   }
 }
-
