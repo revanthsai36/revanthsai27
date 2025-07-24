@@ -8,56 +8,64 @@
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="experience.html" class="active">Experience</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <div class="logo">Revanth Sai</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="experience.html" class="active">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section id="experience">
       <h1>Professional Experience</h1>
 
-      <!-- Verizon -->
-      <h2>Data Engineer – Verizon</h2>
-      <p><strong>Feb 2023 – Present</strong></p>
-      <h3>Project: GCP-Based Customer & Operations Analytics Platform</h3>
+      <h2>Data Engineer – Verizon <span style="font-weight:normal;">(Feb 2023 – Present)</span></h2>
+      <p><strong>Project:</strong> GCP-Based Customer & Operations Analytics Platform</p>
       <ul>
-        <li>Led migration of 12+ legacy Teradata ETL workflows to BigQuery, boosting speed by 50% and cutting costs by 30%.</li>
-        <li>Built real-time ETL pipelines with GCP Dataflow processing 2M+ daily events from customer and support systems.</li>
-        <li>Orchestrated workflows using Airflow (Cloud Composer), reducing failure rate by 40%.</li>
-        <li>Implemented Python-based data validation, cutting QA time by 60%.</li>
-        <li>Designed partitioned BigQuery tables with sub-second query capability.</li>
-        <li>Enabled model-ready datasets and deployed CI/CD pipelines using Docker and GitHub Actions.</li>
-        <li><strong>Power BI Dashboards:</strong> Churn Prediction, Network Health, Support Insights.</li>
+        <li>Migrated 12+ Teradata ETL workflows to BigQuery, cutting query time by 50%.</li>
+        <li>Built real-time pipelines using GCP Dataflow ingesting 2M+ daily events.</li>
+        <li>Orchestrated ETL jobs with Airflow (Cloud Composer) to improve reliability.</li>
+        <li>Developed Python-based data validation routines cutting QA time by 60%.</li>
+        <li>Enabled CI/CD pipelines with Docker and GitHub Actions.</li>
+        <li>Power BI dashboards built:
+          <ul>
+            <li><strong>Churn Prediction</strong> – Tracked 250K+ users weekly.</li>
+            <li><strong>Network Health</strong> – Visualized signal drops in 150+ regions.</li>
+            <li><strong>Support Insights</strong> – Analyzed 1M+ chat logs monthly.</li>
+          </ul>
+        </li>
       </ul>
 
-      <!-- Humana -->
-      <h2>Data Engineer – Humana</h2>
-      <p><strong>Aug 2021 – Sep 2022</strong></p>
-      <h3>Project: Azure-Based Healthcare Data Modernization</h3>
+      <h2>Data Engineer – Humana <span style="font-weight:normal;">(Aug 2021 – Sep 2022)</span></h2>
+      <p><strong>Project:</strong> Azure-Based Healthcare Data Modernization</p>
       <ul>
-        <li>Designed scalable ETL pipelines in Azure Data Factory and Databricks for 10M+ member healthcare records.</li>
-        <li>Built PySpark transformations and Python scripts for anomaly detection and schema validation.</li>
-        <li>Created star-schema models in Synapse for performant dashboards and reporting.</li>
-        <li>Ensured HIPAA compliance and implemented CI/CD via Azure DevOps.</li>
-        <li><strong>Power BI Dashboards:</strong> Care Utilization Tracker, Cost & Claims Insights, Chronic Risk Scoring.</li>
+        <li>Built scalable ETL pipelines in ADF and PySpark for claims and EHR data.</li>
+        <li>Modeled star-schema structures in Azure Synapse for optimized reporting.</li>
+        <li>Enabled HIPAA-compliant pipelines with automated testing using PyTest.</li>
+        <li>Created ML-ready datasets to boost model precision by 25%.</li>
+        <li>Power BI dashboards built:
+          <ul>
+            <li><strong>Care Utilization Tracker</strong> – Visualized patient visit trends.</li>
+            <li><strong>Chronic Risk Scoring</strong> – Segmented 5M+ patients by risk.</li>
+          </ul>
+        </li>
       </ul>
 
-      <!-- Warner Music Group -->
-      <h2>Data Engineer – Warner Music Group</h2>
-      <p><strong>Jun 2019 – Aug 2021</strong></p>
-      <h3>Project: GCP-Based Streaming Analytics Platform</h3>
+      <h2>Data Engineer – Warner Music Group <span style="font-weight:normal;">(Jun 2019 – Aug 2021)</span></h2>
+      <p><strong>Project:</strong> GCP-Based Streaming Analytics Platform</p>
       <ul>
-        <li>Engineered data pipelines using Databricks, Airflow, and BigQuery for 500M+ monthly streaming events.</li>
-        <li>Migrated ETL jobs from Oracle to GCP, improving job latency by 40%.</li>
-        <li>Developed Python scripts for ingesting partner metadata and transforming unstructured logs.</li>
-        <li><strong>Dashboards:</strong> Fan Engagement Trends, Global Revenue Insights, Campaign Performance Monitor.</li>
+        <li>Processed 500M+ streaming events/month using DataProc + BigQuery.</li>
+        <li>Migrated ETL from Oracle to GCP stack, reducing job latency by 40%.</li>
+        <li>Built Airflow DAGs and containerized utilities deployed to GKE.</li>
+        <li>Collaborated on Power BI and Tableau dashboards:
+          <ul>
+            <li><strong>Fan Engagement Trends</strong> – Playlist adds, skips, plays by region.</li>
+            <li><strong>Campaign Monitor</strong> – Assessed marketing effectiveness.</li>
+          </ul>
+        </li>
       </ul>
 
     </section>
