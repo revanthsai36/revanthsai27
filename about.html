@@ -3,26 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me - Revanth Sai</title>
+  <title>About - Revanth Sai</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <nav class="navbar">
+    <div class="logo">Revanth Sai</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="about-section">
     <h1>About Me</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>Professional Summary</h2>
-      <p>
-        I’m a passionate <strong>Data Engineer</strong> with over <strong>5 years of experience</strong> building and maintaining robust, scalable, and high-performance data pipelines...
-      </p>
-      <!-- Add full summary content here -->
-    </section>
-  </main>
+    <p>
+      I am a Data Engineer with over 5 years of experience in building and maintaining end-to-end ETL pipelines across cloud and on-premise environments. I specialize in designing scalable, reliable, and high-performance data workflows for both batch and streaming data using tools like Apache Airflow, Azure Data Factory, and Google Cloud Dataflow.
+    </p>
+    <p>
+      My core expertise includes Python programming (Pandas, NumPy), SQL, data modeling, and cloud data warehouses like BigQuery and Snowflake. I also bring strong experience in query optimization for both SQL and NoSQL databases such as MySQL, MongoDB, and Cosmos DB.
+    </p>
+    <p>
+      I'm passionate about building high-quality data solutions that are robust, maintainable, and transparent. I have worked closely with analysts, data scientists, and business stakeholders to deliver model-ready datasets and data products that support advanced analytics and AI/ML initiatives.
+    </p>
+    <p>
+      I thrive in collaborative environments and am committed to continuous improvement and clear documentation. With a keen eye for data quality, I implement validations, exception handling, and automated monitoring across data pipelines.
+    </p>
+  </section>
 </body>
 </html>
