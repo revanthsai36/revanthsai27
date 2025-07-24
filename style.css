@@ -197,3 +197,28 @@ footer {
     margin: 10px auto;
   }
 }
+/* Underline on hover for nav links */
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #f59e0b;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Keep underline on active link */
+.nav-links a.active::after {
+  width: 100%;
+}
