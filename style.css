@@ -105,29 +105,14 @@ main ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 20px;
+  min-height: calc(100vh - 80px); /* Adjusts for navbar */
   text-align: center;
+  padding: 60px 20px;
 }
 
 .hero p {
   font-size: 20px;
-  color: #6b7280;
-  margin-bottom: 10px;
-}
-
-.hero h1 {
-  font-size: 56px;
-  font-weight: 800;
-  color: #111827;
-  margin-bottom: 20px;
-}
-
-.hero h2 {
-  font-size: 26px;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 30px;
-}
+  color: #6b7280
 
 .buttons {
   display: flex;
