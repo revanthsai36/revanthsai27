@@ -25,6 +25,7 @@ body {
   font-size: 22px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -101,28 +102,41 @@ main ul li {
 /* Hero Section (Homepage) */
 .hero {
   text-align: center;
-  margin-top: 120px;
-  padding: 40px 20px;
+  margin-top: 100px;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f9fafb, #e0f2fe);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero p {
-  font-size: 18px;
-  color: #666;
+  font-size: 20px;
+  color: #6b7280;
+  margin-bottom: 10px;
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 54px;
   margin: 10px 0;
-  font-weight: 700;
+  font-weight: 800;
+  color: #111827;
 }
 
 .hero h2 {
-  font-size: 28px;
-  margin: 10px 0;
-  color: #444;
-  font-weight: 600;
+  font-size: 22px;
+  margin-top: 20px;
+  color: #374151;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Buttons */
 .buttons {
   margin-top: 30px;
 }
@@ -175,11 +189,11 @@ footer {
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 38px;
   }
 
   .hero h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .btn {
